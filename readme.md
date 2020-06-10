@@ -6,7 +6,7 @@ liu-hz18@mails.tsinghua.edu.cn
 衡量标准: Acc, F1(macro)
 
 ## Performance
-| MLP| 56.64 |
+|MLP| 56.64 |
 |BERT-MLP| 60.33|
 |CNN| 58.86|
 |Text-CNN| 62.72|
