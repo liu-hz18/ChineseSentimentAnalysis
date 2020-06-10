@@ -1,7 +1,7 @@
 # 中文情感分类(Chinese Sentiment Classification)
 liu-hz18@mails.tsinghua.edu.cn
 
-##### implemented model: MLP, CNN, RNN, RCNN, Text-CNN (Pytorch), BERT(Tensorflow) 
+#### implemented model: MLP, CNN, RNN, RCNN, Text-CNN (Pytorch), BERT(Tensorflow) 
 
 衡量标准: Acc, F1(macro)
 
