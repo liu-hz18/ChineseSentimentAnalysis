@@ -1,6 +1,20 @@
-# 程序运行说明
+# 中文情感分类(Chinese Sentiment Classification)
 
-##### 2018011446  计84  刘泓尊
+##### implemented model: MLP, CNN, RNN, RCNN, Text-CNN (Pytorch), BERT(Tensorflow) 
+
+衡量标准: Acc, F1(macro)
+
+## Performance
+MLP: 56.64
+BERT-MLP: 60.33
+CNN: 58.86
+Text-CNN: 62.72
+RNN: 55.09
+LSTM: 61.16
+GRU: 62.64
+RCNN(LSTM): 60.61
+RCNN(GRU): 61.51
+
 
 liu-hz18@mails.tsinghua.edu.cn
 
@@ -61,5 +75,3 @@ tensorboard ‐‐logdir save/all/run
 之后在http://localhost:6006/ 中查看结果。
 
 ------
-
-谢谢老师和助教！
