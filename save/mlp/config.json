@@ -1,0 +1,24 @@
+{
+ "use_pretrained": false,
+ "vocab_size": 45818,
+ "embed_size": 300,
+ "num_class": 8,
+ "seed": 11446,
+ "embed_path": "word2vec/matrix.npy",
+ "device": "cuda:0",
+ "net": "mlp",
+ "output_path": "save/mlp",
+ "hidden_sizes": [
+  256,
+  64
+ ],
+ "max_length": 128,
+ "batch_size": 64,
+ "num_layers": 2,
+ "drop_out": 0.6,
+ "lr": 0.001,
+ "epochs": 400,
+ "lr_decay": 0.0,
+ "weight_decay": 0.0001,
+ "loss_type": "cross_entropy"
+}

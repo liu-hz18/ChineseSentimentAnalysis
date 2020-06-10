@@ -1,0 +1,26 @@
+{
+ "use_pretrained": false,
+ "vocab_size": 45818,
+ "embed_size": 300,
+ "num_class": 8,
+ "seed": 11446,
+ "embed_path": "word2vec/matrix.npy",
+ "device": "cuda:0",
+ "net": "textcnn",
+ "output_path": "save/textcnn",
+ "kernel_sizes": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "kernel_num": 100,
+ "batch_size": 64,
+ "drop_out": 0.5,
+ "mlp_hidden_size": 512,
+ "lr": 0.02,
+ "epochs": 500,
+ "lr_decay": 0.0,
+ "weight_decay": 0.001,
+ "loss_type": "cross_entropy"
+}

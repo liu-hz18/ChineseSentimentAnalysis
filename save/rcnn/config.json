@@ -1,0 +1,23 @@
+{
+ "use_pretrained": false,
+ "vocab_size": 45818,
+ "embed_size": 300,
+ "num_class": 8,
+ "seed": 11446,
+ "embed_path": "word2vec/matrix.npy",
+ "device": "cuda:0",
+ "net": "rcnn",
+ "output_path": "save/rcnn",
+ "rnn": "gru",
+ "batch_size": 64,
+ "drop_out": 0.5,
+ "rnn_hidden_size": 256,
+ "num_layers": 1,
+ "mlp_1_hidden_size": 512,
+ "mlp_2_hidden_size": 128,
+ "lr": 0.01,
+ "epochs": 400,
+ "lr_decay": 0.0,
+ "weight_decay": 0.001,
+ "loss_type": "cross_entropy"
+}
