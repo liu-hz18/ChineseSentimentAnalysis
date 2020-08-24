@@ -1,7 +1,7 @@
 # 中文情感分类(Chinese Sentiment Classification)
 liu-hz18@mails.tsinghua.edu.cn
 
-#### implemented model: MLP, CNN, RNN, RCNN, Text-CNN (Pytorch), BERT(Tensorflow) 
+#### implemented model: MLP, CNN, RNN
 
 衡量标准: Acc, F1(macro)
 
@@ -15,10 +15,6 @@ liu-hz18@mails.tsinghua.edu.cn
 |RNN| 55.09|
 |LSTM| 61.16|
 |GRU| 62.64|
-|RCNN(LSTM)| 60.61|
-|RCNN(GRU)| 61.51|
-
-
 
 
 提交的包中已经包含了预处理后的文件，可以直接训练。
